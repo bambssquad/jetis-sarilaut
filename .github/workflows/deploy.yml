@@ -1,0 +1,56 @@
+name: Build and deploy verified Jetis Sarilaut
+on:
+  push:
+    branches: [main]
+    paths:
+      - overlay.tar.gz
+      - build-manifest.json
+      - reconstruct.py
+      - .github/workflows/deploy.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out this new repository
+        uses: actions/checkout@v4
+      - name: Check out immutable public source assets
+        uses: actions/checkout@v4
+        with:
+          repository: bambssquad/jetis-digital-twin-astra
+          ref: 848b273a567f00c6dd8af9bf8ab8c09b5dccb69c
+          path: _source
+          persist-credentials: false
+      - name: Reconstruct and verify every published byte
+        run: |
+          python3 reconstruct.py --source _source --output _verified_dist
+          rm -rf dist
+          mv _verified_dist dist
+      - name: Save self-contained site in this repository
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- dist
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish byte-verified self-contained Jetis Sarilaut site'
+            git push origin HEAD:main
+          fi
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload verified Pages site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
