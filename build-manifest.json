@@ -1,0 +1,589 @@
+{
+  "source_repository": "bambssquad/jetis-digital-twin-astra",
+  "source_commit": "848b273a567f00c6dd8af9bf8ab8c09b5dccb69c",
+  "files": [
+    {
+      "path": "checks/responsive.html",
+      "bytes": 2016,
+      "sha256": "16a690a7b79976492bbad39155a5f433949718c979d9c5d4df91fd6f4ab0abae",
+      "overlay": true
+    },
+    {
+      "path": "downloads/Jetis-LOD100-Gambar-Teknik.dwg",
+      "bytes": 285856,
+      "sha256": "9897166b4445d0eafd63cd87b15b8aeb0ad5ba4e960961657012194cd05cab53",
+      "overlay": true
+    },
+    {
+      "path": "downloads/Jetis-LOD100-Gambar-Teknik.dxf",
+      "bytes": 682391,
+      "sha256": "8261331f2a71a112d7a214e90ceacb6e814b2c5755405ed0cd4715dda01d99e0",
+      "overlay": true
+    },
+    {
+      "path": "downloads/Jetis-Model-R02.skp",
+      "bytes": 29679889,
+      "sha256": "bae564dd307d89c44f1d7eb3e427b7f60d49f6a3a6df81bb4d5ab537e48f171d",
+      "source_path": "outputs/model.skp"
+    },
+    {
+      "path": "downloads/Jetis-Panduan.txt",
+      "bytes": 1877,
+      "sha256": "ef50b637b820765044e5f7de78156627a2a5d7f3906be57cd8cc20e3db2e1535",
+      "overlay": true
+    },
+    {
+      "path": "downloads/Jetis-Sumber-Asli-R02.dwg",
+      "bytes": 2909918,
+      "sha256": "793d4ec07d86248e5912676eea1f0c5720186aceacdef0ef97ef004aa138faf5",
+      "source_path": "analysis/revisions/2026-09-30/input.dwg"
+    },
+    {
+      "path": "downloads/Jetis-Verifikasi.json",
+      "bytes": 4174,
+      "sha256": "b3a094ff6bbd12908599ed4a7e3f014c63a6786230c5cb13dbc2b1da8f0a9dc3",
+      "overlay": true
+    },
+    {
+      "path": "drawings/A101-site-plan.svg",
+      "bytes": 14841,
+      "sha256": "75110e7b89ebb72fe5381499a32465de0e3243b84de136eb5d862d7c5c55313c",
+      "overlay": true
+    },
+    {
+      "path": "drawings/A102-ground-floor.svg",
+      "bytes": 77636,
+      "sha256": "b205a0d05eac7aee8f0d69a6397f429dc433bf705fa26bcbf9d2d874b6fb9c32",
+      "overlay": true
+    },
+    {
+      "path": "drawings/A103-upper-floor-void.svg",
+      "bytes": 27133,
+      "sha256": "6cb6fc46ee8a65b8352ea60d2598fb7b20e42425313003f4278cfc44547426c3",
+      "overlay": true
+    },
+    {
+      "path": "drawings/A104-roof-plan.svg",
+      "bytes": 23524,
+      "sha256": "19c4202d88d92115444212b3b217e64af669c2635f88bd622645078b6b24cc94",
+      "overlay": true
+    },
+    {
+      "path": "drawings/A105-elevations-stage1.svg",
+      "bytes": 34042,
+      "sha256": "0aff8d12d83d90508439f51bc1d4e29a25bf72cb3506c934279ac0e0fa080e74",
+      "overlay": true
+    },
+    {
+      "path": "drawings/A106-elevations-stage2.svg",
+      "bytes": 21560,
+      "sha256": "226366019aa9ec078d1a78c8d95c39255efb5e24f025ad9690bb84e6b5704622",
+      "overlay": true
+    },
+    {
+      "path": "drawings/A107-sections.svg",
+      "bytes": 22314,
+      "sha256": "65da53dfc1bf8c917bced612ab013a6de838c05190889b6622c128dfb68ac2be",
+      "overlay": true
+    },
+    {
+      "path": "drawings/manifest.json",
+      "bytes": 31065,
+      "sha256": "44af25985ba52cc38e76fdbed39e823ce3702a06bb2959e83315a19ce01b3b47",
+      "overlay": true
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 192,
+      "sha256": "88aaee6312f57274b186fc71a4d5b2c82fb4157982dc4550598c0ea347853e7d",
+      "overlay": true
+    },
+    {
+      "path": "index.html",
+      "bytes": 8032,
+      "sha256": "5ef2d2ece836fc0c3c1186419279cf4fe75de33374d113e5aaa71aa951f0d4e9",
+      "overlay": true
+    },
+    {
+      "path": "model/app.js",
+      "bytes": 24866,
+      "sha256": "ed837a5bf28b99f079f0c67dfdb1096bfb6df31df98a52e894830839e9db3f45",
+      "overlay": true
+    },
+    {
+      "path": "model/assets/material-sources.json",
+      "bytes": 1187,
+      "sha256": "02310c1469fb627a7fd1b511ce2c779e858550173b7fd1443d6484597dfbe9f6",
+      "source_path": "web/dist/assets/material-sources.json"
+    },
+    {
+      "path": "model/assets/scene.json",
+      "bytes": 1217226,
+      "sha256": "03a5b0c4c5f12c9887a75eb4fe7dfb7d66babe4345338f244d2b6ba66934ba9d",
+      "source_path": "web/dist/assets/scene.json"
+    },
+    {
+      "path": "model/assets/textures/Asphalt012_Color.jpg",
+      "bytes": 4104616,
+      "sha256": "40517abe931e321b0fe059314720b6be0166159437220592afab49d79244e9de",
+      "source_path": "web/dist/assets/textures/Asphalt012_Color.jpg"
+    },
+    {
+      "path": "model/assets/textures/Asphalt012_NormalGL.jpg",
+      "bytes": 9575192,
+      "sha256": "bf87b1095ed1f994a6fd63a079536a7df2fce07a2732d2fefdb2af9af1c094ca",
+      "source_path": "web/dist/assets/textures/Asphalt012_NormalGL.jpg"
+    },
+    {
+      "path": "model/assets/textures/Asphalt012_Roughness.jpg",
+      "bytes": 3068647,
+      "sha256": "b7a6f2e17842ae0136f89424aacfa8b0f357cffafab99365a990d5d00927925c",
+      "source_path": "web/dist/assets/textures/Asphalt012_Roughness.jpg"
+    },
+    {
+      "path": "model/assets/textures/Concrete034_Color.jpg",
+      "bytes": 1156573,
+      "sha256": "fa27982687596d7aa080db1e9b88c30f48a3c32eb3e50b27a2ea27c431e4cde9",
+      "source_path": "web/dist/assets/textures/Concrete034_Color.jpg"
+    },
+    {
+      "path": "model/assets/textures/Concrete034_NormalGL.jpg",
+      "bytes": 3325261,
+      "sha256": "b077dfe6b3b8fbe794d82b9014d030fa01984a25ab67d2e21310995e6ea5b881",
+      "source_path": "web/dist/assets/textures/Concrete034_NormalGL.jpg"
+    },
+    {
+      "path": "model/assets/textures/Concrete034_Roughness.jpg",
+      "bytes": 879275,
+      "sha256": "fd39973b8ef8212d1c99d18b6665595db3ab96f1c124e062fea52b9bda4ffa63",
+      "source_path": "web/dist/assets/textures/Concrete034_Roughness.jpg"
+    },
+    {
+      "path": "model/assets/textures/Metal032_Color.jpg",
+      "bytes": 3843751,
+      "sha256": "f444c07a08de291049d0dda880d6fca9faae4b172f293f604c87e5e96ad30370",
+      "source_path": "web/dist/assets/textures/Metal032_Color.jpg"
+    },
+    {
+      "path": "model/assets/textures/Metal032_NormalGL.jpg",
+      "bytes": 1572994,
+      "sha256": "b84a0bfe4639b7e3fac36d04adf1844e0e2654f987a36ece5c966ad77921cd27",
+      "source_path": "web/dist/assets/textures/Metal032_NormalGL.jpg"
+    },
+    {
+      "path": "model/assets/textures/Metal032_Roughness.jpg",
+      "bytes": 2105192,
+      "sha256": "8a0570593c028cf0eca32a0107d7bc936817f0de7076f1b8b8f48ea7745aee27",
+      "source_path": "web/dist/assets/textures/Metal032_Roughness.jpg"
+    },
+    {
+      "path": "model/assets/textures/Wood049_Color.jpg",
+      "bytes": 3643718,
+      "sha256": "447ca1455fa88d37465319638f1c99107f02f50fcf491d3c15314658d21e4d5e",
+      "source_path": "web/dist/assets/textures/Wood049_Color.jpg"
+    },
+    {
+      "path": "model/assets/textures/Wood049_NormalGL.jpg",
+      "bytes": 6538352,
+      "sha256": "8f2d5697c79927c85a10e48e82701a7054df77166d4654a2931e650f7f4c77f6",
+      "source_path": "web/dist/assets/textures/Wood049_NormalGL.jpg"
+    },
+    {
+      "path": "model/assets/textures/Wood049_Roughness.jpg",
+      "bytes": 2988190,
+      "sha256": "bb20736bb4b18533cce8c1f36ea8fff7216653b3516ec60f1aedb83362151691",
+      "source_path": "web/dist/assets/textures/Wood049_Roughness.jpg"
+    },
+    {
+      "path": "model/assets/textures-1k/Asphalt012_Color.jpg",
+      "bytes": 1009615,
+      "sha256": "c7a142a1c12f517024d1b4c92472c700af86cfe3bfc12263c4260e414d4c2c59",
+      "source_path": "web/dist/assets/textures-1k/Asphalt012_Color.jpg"
+    },
+    {
+      "path": "model/assets/textures-1k/Asphalt012_NormalGL.jpg",
+      "bytes": 2149012,
+      "sha256": "4e1d22a2216769d575d3481c548555ab955f7e6d7cb06f0c5eda99835612deb1",
+      "source_path": "web/dist/assets/textures-1k/Asphalt012_NormalGL.jpg"
+    },
+    {
+      "path": "model/assets/textures-1k/Asphalt012_Roughness.jpg",
+      "bytes": 744991,
+      "sha256": "0f3bdc4408c43fb8cfbef8089ea6aa9dbfbd104fcfc0ea7a63200fed79cb395c",
+      "source_path": "web/dist/assets/textures-1k/Asphalt012_Roughness.jpg"
+    },
+    {
+      "path": "model/assets/textures-1k/Concrete034_Color.jpg",
+      "bytes": 269501,
+      "sha256": "8ceb9186d990b31fce785e06fdc6974c160f1d27c43f6160266f164deba713aa",
+      "source_path": "web/dist/assets/textures-1k/Concrete034_Color.jpg"
+    },
+    {
+      "path": "model/assets/textures-1k/Concrete034_NormalGL.jpg",
+      "bytes": 821681,
+      "sha256": "e509eb9dfa978e780fbebfd2acacc2ce158b5b7ced722ddc0759039dd51e18ca",
+      "source_path": "web/dist/assets/textures-1k/Concrete034_NormalGL.jpg"
+    },
+    {
+      "path": "model/assets/textures-1k/Concrete034_Roughness.jpg",
+      "bytes": 217708,
+      "sha256": "a4a9e39857a19afd23a778e5abf44fcdf6bd7f93918f1cf6878b41933e553511",
+      "source_path": "web/dist/assets/textures-1k/Concrete034_Roughness.jpg"
+    },
+    {
+      "path": "model/assets/textures-1k/Metal032_Color.jpg",
+      "bytes": 701900,
+      "sha256": "49493d6ade78ccbbbd270c6a15e4b4c9b1a097e66ddf28a1073de3e85712d9af",
+      "source_path": "web/dist/assets/textures-1k/Metal032_Color.jpg"
+    },
+    {
+      "path": "model/assets/textures-1k/Metal032_NormalGL.jpg",
+      "bytes": 341948,
+      "sha256": "8537c1015de5cc33d20231e5b6aa27309edcb983e1c37e608d08bb00f733747d",
+      "source_path": "web/dist/assets/textures-1k/Metal032_NormalGL.jpg"
+    },
+    {
+      "path": "model/assets/textures-1k/Metal032_Roughness.jpg",
+      "bytes": 404875,
+      "sha256": "55d3eee2b69008ad3701b18977495531d0e3515105102e56f40a4d1098d10bce",
+      "source_path": "web/dist/assets/textures-1k/Metal032_Roughness.jpg"
+    },
+    {
+      "path": "model/assets/textures-1k/Wood049_Color.jpg",
+      "bytes": 954756,
+      "sha256": "451ee4dd719628289b4969f75dc583b5f77f8471d5d885ba5015fd90e7e5ce61",
+      "source_path": "web/dist/assets/textures-1k/Wood049_Color.jpg"
+    },
+    {
+      "path": "model/assets/textures-1k/Wood049_NormalGL.jpg",
+      "bytes": 1559595,
+      "sha256": "e9aaec13f9c6199e7ec440433005a8c52a88332f26a3887fc057179089fb747a",
+      "source_path": "web/dist/assets/textures-1k/Wood049_NormalGL.jpg"
+    },
+    {
+      "path": "model/assets/textures-1k/Wood049_Roughness.jpg",
+      "bytes": 708949,
+      "sha256": "7683f29e71c24b987e4a7dcc74d5a9ed5ab4cac2e145d507799ba9c9c2c4ef54",
+      "source_path": "web/dist/assets/textures-1k/Wood049_Roughness.jpg"
+    },
+    {
+      "path": "model/construction.mjs",
+      "bytes": 7070,
+      "sha256": "66bcc673d4c114e86776f38c13e0dc7d8247c4a7aacdd8926ebdcf364c2b9fa0",
+      "overlay": true
+    },
+    {
+      "path": "model/experience.js",
+      "bytes": 8705,
+      "sha256": "2f7ca92f47c06bda9f57197a425e37790ca87c2215804413fe8cd9fbf8f31bba",
+      "source_path": "web/dist/experience.js"
+    },
+    {
+      "path": "model/glass.css",
+      "bytes": 28437,
+      "sha256": "7b12d6ab7cdc098238f3098bacb4dfb1b0f8096cf02095e55c530d907f1e7e75",
+      "overlay": true
+    },
+    {
+      "path": "model/index.html",
+      "bytes": 9344,
+      "sha256": "a1173af930005a66e92eee88878e1f8f1e6edbb572a6b37220028083b3962eb3",
+      "overlay": true
+    },
+    {
+      "path": "model/navigation.js",
+      "bytes": 4786,
+      "sha256": "2aaebc1e1a4358efa4cac9ad3f19b57809f9bfdcd6a78d039840431032ba1133",
+      "source_path": "web/dist/navigation.js"
+    },
+    {
+      "path": "model/package.json",
+      "bytes": 33,
+      "sha256": "a90fc33418afa2b9cbf4768524b021135b965ecdf993457505bfae3ac44a8428",
+      "source_path": "web/dist/package.json"
+    },
+    {
+      "path": "model/project.json",
+      "bytes": 6956,
+      "sha256": "5d8c2b48c59f04825a814a6010be3598f3f016a2d90a370ae136f35b906fdeae",
+      "overlay": true
+    },
+    {
+      "path": "model/render-quality.mjs",
+      "bytes": 2916,
+      "sha256": "53109c078057bbbe900d4e51509c6da48f9027be76c82544d9d77572fc4f3860",
+      "overlay": true
+    },
+    {
+      "path": "model/style.css",
+      "bytes": 8314,
+      "sha256": "590cf5e3f64e18fc6b5c2c247373a8abfb6af95858c013af5b051e1b5d28033b",
+      "source_path": "web/dist/style.css"
+    },
+    {
+      "path": "model/vendor/LICENSE-three.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "source_path": "web/dist/vendor/LICENSE-three.txt"
+    },
+    {
+      "path": "model/vendor/addons/controls/ArcballControls.js",
+      "bytes": 87221,
+      "sha256": "5212985773f5d460c8e091d7ab6ff6ef886afd92536b3269686e364955af0ccd",
+      "source_path": "web/dist/vendor/addons/controls/ArcballControls.js"
+    },
+    {
+      "path": "model/vendor/addons/controls/DragControls.js",
+      "bytes": 9510,
+      "sha256": "aa0af1effa5c4e628c461bbb3f51a535ee99289c7350e0fab6fc6812b7fb6d8f",
+      "source_path": "web/dist/vendor/addons/controls/DragControls.js"
+    },
+    {
+      "path": "model/vendor/addons/controls/FirstPersonControls.js",
+      "bytes": 11889,
+      "sha256": "4f6c4bf60c8956a1201c966de1592f4f035be47b4f6fe97879a782898945992c",
+      "source_path": "web/dist/vendor/addons/controls/FirstPersonControls.js"
+    },
+    {
+      "path": "model/vendor/addons/controls/FlyControls.js",
+      "bytes": 9025,
+      "sha256": "8063858389f2ccd5cd6f0968562752dbab4b21a03c7a6e1dcbb5cc746fc06373",
+      "source_path": "web/dist/vendor/addons/controls/FlyControls.js"
+    },
+    {
+      "path": "model/vendor/addons/controls/MapControls.js",
+      "bytes": 3070,
+      "sha256": "5a686152c498914389d1503b60121f484d06f15cb4f7405c15fb6b8ddcc1bdb6",
+      "source_path": "web/dist/vendor/addons/controls/MapControls.js"
+    },
+    {
+      "path": "model/vendor/addons/controls/OrbitControls.js",
+      "bytes": 40755,
+      "sha256": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b",
+      "source_path": "web/dist/vendor/addons/controls/OrbitControls.js"
+    },
+    {
+      "path": "model/vendor/addons/controls/PointerLockControls.js",
+      "bytes": 5890,
+      "sha256": "40d58db8018b85038939d4d8bff7112d4b8a0ad0367b37ae6f969eeee4310c25",
+      "source_path": "web/dist/vendor/addons/controls/PointerLockControls.js"
+    },
+    {
+      "path": "model/vendor/addons/controls/TrackballControls.js",
+      "bytes": 24048,
+      "sha256": "cce95baddf589c16fea901b70f2038eca4557357937e1b03f8c76fe7ffe7457f",
+      "source_path": "web/dist/vendor/addons/controls/TrackballControls.js"
+    },
+    {
+      "path": "model/vendor/addons/controls/TransformControls.js",
+      "bytes": 51706,
+      "sha256": "151befe25bb0d68626f9a6b033625b7b0cf6848e39ba71623b7bed8e3df565d6",
+      "source_path": "web/dist/vendor/addons/controls/TransformControls.js"
+    },
+    {
+      "path": "model/vendor/addons/math/Capsule.js",
+      "bytes": 3543,
+      "sha256": "be54c3c58483a7f6b0184dbc6ffdcea58ac13515a7d9fd19ed675b9edfc5f319",
+      "source_path": "web/dist/vendor/addons/math/Capsule.js"
+    },
+    {
+      "path": "model/vendor/addons/math/ColorConverter.js",
+      "bytes": 1487,
+      "sha256": "316925abf09f332ab8f1d55dcb6f55bf491e199360a46ab8f60d721c0904cf5a",
+      "source_path": "web/dist/vendor/addons/math/ColorConverter.js"
+    },
+    {
+      "path": "model/vendor/addons/math/ColorSpaces.js",
+      "bytes": 4290,
+      "sha256": "cc35c01c793cd17ccded7bc8142abffd3ce0d60dd6de8d5d216983bd05aee262",
+      "source_path": "web/dist/vendor/addons/math/ColorSpaces.js"
+    },
+    {
+      "path": "model/vendor/addons/math/ConvexHull.js",
+      "bytes": 32974,
+      "sha256": "7b7d53ed4533556f555440676d2cbc3680ffab32b1a910c79c9a522019bd3a06",
+      "source_path": "web/dist/vendor/addons/math/ConvexHull.js"
+    },
+    {
+      "path": "model/vendor/addons/math/ImprovedNoise.js",
+      "bytes": 3034,
+      "sha256": "d3821241e25bf0c8bfc13cec941924573bbaaf8f599a4fa07d60664b97832b39",
+      "source_path": "web/dist/vendor/addons/math/ImprovedNoise.js"
+    },
+    {
+      "path": "model/vendor/addons/math/Lut.js",
+      "bytes": 6688,
+      "sha256": "04d047d96f17302f2d7a20f439c0583a3e037bc0e7e40c276c1dee618dc9533c",
+      "source_path": "web/dist/vendor/addons/math/Lut.js"
+    },
+    {
+      "path": "model/vendor/addons/math/MeshSurfaceSampler.js",
+      "bytes": 8161,
+      "sha256": "a70ab7a8f28b96cd51f09b7c4d5987167bdc23b91b2a26134766a180751aee43",
+      "source_path": "web/dist/vendor/addons/math/MeshSurfaceSampler.js"
+    },
+    {
+      "path": "model/vendor/addons/math/OBB.js",
+      "bytes": 13862,
+      "sha256": "3297db79bdf0a33525ef06fe7478fd921dcffb7699df1059e189bbdf2c0fae58",
+      "source_path": "web/dist/vendor/addons/math/OBB.js"
+    },
+    {
+      "path": "model/vendor/addons/math/Octree.js",
+      "bytes": 18175,
+      "sha256": "b2f3830ac340938771e5982ff25e09cb806aadc6bfb33f0a8bcad5d56cd41a42",
+      "source_path": "web/dist/vendor/addons/math/Octree.js"
+    },
+    {
+      "path": "model/vendor/addons/math/SimplexNoise.js",
+      "bytes": 15148,
+      "sha256": "4b1455617135e6b477de76244de07547d95570643379b72f4758e50161b06072",
+      "source_path": "web/dist/vendor/addons/math/SimplexNoise.js"
+    },
+    {
+      "path": "model/vendor/addons/objects/GaussianSplat.js",
+      "bytes": 32105,
+      "sha256": "ea3f148d39413ef31781cdbb1c97a8972b2dce01ef5eebe6ef800c2b1ba7ab42",
+      "source_path": "web/dist/vendor/addons/objects/GaussianSplat.js"
+    },
+    {
+      "path": "model/vendor/addons/objects/GroundedSkybox.js",
+      "bytes": 1980,
+      "sha256": "86e13051e05cb5beed632a377abc9eff13fd7cae10f1f5fb4d8cc41ce1cf2681",
+      "source_path": "web/dist/vendor/addons/objects/GroundedSkybox.js"
+    },
+    {
+      "path": "model/vendor/addons/objects/Lensflare.js",
+      "bytes": 11110,
+      "sha256": "f313c7d783dd25b29194e51aeed046ff9f52716d226b66984dc90aa925d00447",
+      "source_path": "web/dist/vendor/addons/objects/Lensflare.js"
+    },
+    {
+      "path": "model/vendor/addons/objects/LensflareMesh.js",
+      "bytes": 9723,
+      "sha256": "3e5767b9a11e4ae9d4ec7d22cb9168f5abe4cb849f086bf2d833455c34620332",
+      "source_path": "web/dist/vendor/addons/objects/LensflareMesh.js"
+    },
+    {
+      "path": "model/vendor/addons/objects/MarchingCubes.js",
+      "bytes": 40408,
+      "sha256": "fe9c6ace2c079bf540befd164ce492de98c820d8b86a722b1060833d42ad9c80",
+      "source_path": "web/dist/vendor/addons/objects/MarchingCubes.js"
+    },
+    {
+      "path": "model/vendor/addons/objects/Reflector.js",
+      "bytes": 10943,
+      "sha256": "57836df976f02a474b2dcfbb6609bca8bde0ccc6e77159ad8e418fa11c065d3b",
+      "source_path": "web/dist/vendor/addons/objects/Reflector.js"
+    },
+    {
+      "path": "model/vendor/addons/objects/ReflectorForSSRPass.js",
+      "bytes": 12033,
+      "sha256": "3198dd0f966779837a85b8905370612f44389029f8b700bc2b19c0a3b58d1896",
+      "source_path": "web/dist/vendor/addons/objects/ReflectorForSSRPass.js"
+    },
+    {
+      "path": "model/vendor/addons/objects/Refractor.js",
+      "bytes": 10176,
+      "sha256": "512c4ec056b8af3c7aa24f80a74d606dfd10c06697686b2b73df8dbe7f2f9d78",
+      "source_path": "web/dist/vendor/addons/objects/Refractor.js"
+    },
+    {
+      "path": "model/vendor/addons/objects/ShadowMesh.js",
+      "bytes": 3288,
+      "sha256": "e28c3440a3dfd9377ac52ce38501712b4441216384947954761d9e1481aa4bf5",
+      "source_path": "web/dist/vendor/addons/objects/ShadowMesh.js"
+    },
+    {
+      "path": "model/vendor/addons/objects/Sky.js",
+      "bytes": 11526,
+      "sha256": "34121b60a3bd9adc004a5a637f6135e9d2b72757eeb9e476ae1988fe2db6a9fb",
+      "source_path": "web/dist/vendor/addons/objects/Sky.js"
+    },
+    {
+      "path": "model/vendor/addons/objects/SkyMesh.js",
+      "bytes": 12862,
+      "sha256": "453215002329fa8a84920045898fcb7c274795992eb6fba43576f41cfacd8585",
+      "source_path": "web/dist/vendor/addons/objects/SkyMesh.js"
+    },
+    {
+      "path": "model/vendor/addons/objects/Water.js",
+      "bytes": 12894,
+      "sha256": "3386670ba86003a32f5efe449041bd108d4cf1e0661849caa814741a2aaf395b",
+      "source_path": "web/dist/vendor/addons/objects/Water.js"
+    },
+    {
+      "path": "model/vendor/addons/objects/Water2.js",
+      "bytes": 10459,
+      "sha256": "80180ce0b031169883e14a79374e2c4d899b7726a1af4897dd7a9efc9d9240f7",
+      "source_path": "web/dist/vendor/addons/objects/Water2.js"
+    },
+    {
+      "path": "model/vendor/addons/objects/Water2Mesh.js",
+      "bytes": 5908,
+      "sha256": "c42decb79f2a73d8cd4e2c629db109f9837e5ad2d28d4ef1b5afd9998ea5e849",
+      "source_path": "web/dist/vendor/addons/objects/Water2Mesh.js"
+    },
+    {
+      "path": "model/vendor/addons/objects/WaterMesh.js",
+      "bytes": 5850,
+      "sha256": "e2f5d0a50ac00b1c1817ea68ea43697cfb168ce30bbb9e4cc4a2b44fca23c92b",
+      "source_path": "web/dist/vendor/addons/objects/WaterMesh.js"
+    },
+    {
+      "path": "model/vendor/three.core.js",
+      "bytes": 1458113,
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6",
+      "source_path": "web/dist/vendor/three.core.js"
+    },
+    {
+      "path": "model/vendor/three.module.js",
+      "bytes": 662772,
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+      "source_path": "web/dist/vendor/three.module.js"
+    },
+    {
+      "path": "source/geometry.mjs",
+      "bytes": 8084,
+      "sha256": "1e0514bb04affb32124e59e4b013896207fa7435744b78a8fcfb73e501eeba74",
+      "overlay": true
+    },
+    {
+      "path": "source/manifest.json",
+      "bytes": 6682,
+      "sha256": "ef97cf37ba9073475290b1760dce46ec96ff461a4ce7b351bb2605b60914ca70",
+      "overlay": true
+    },
+    {
+      "path": "source/scene.json",
+      "bytes": 8250404,
+      "sha256": "0d16f5db74ceac8004f0da92ac33438e825dcc59639e00d91829547a8e11a9f5",
+      "generated": "compileGeometry"
+    },
+    {
+      "path": "source/viewer.mjs",
+      "bytes": 11670,
+      "sha256": "9efe9e0fdb3789374a30924c51bd0d4511c837e08af4989af29b5379fd9111a4",
+      "overlay": true
+    },
+    {
+      "path": "viewport-math.mjs",
+      "bytes": 438,
+      "sha256": "8dd11625975e4c75183403b5eeba544f82023f8811219472f24e65b99e960bae",
+      "overlay": true
+    },
+    {
+      "path": "workspace.css",
+      "bytes": 16639,
+      "sha256": "7dc6fceb8e67bd0e89598865a8fd1d716c086ce4260cd6bcb9682c337b1cafcc",
+      "overlay": true
+    },
+    {
+      "path": "workspace.mjs",
+      "bytes": 8546,
+      "sha256": "7dd74d24d3cc122a32f3b33ea285c5787abb1a42d5050b546742ee969b81c35a",
+      "overlay": true
+    }
+  ],
+  "overlay_sha256": "92eed82d75bfa4ac53c1eae950816e337152896f4098138be030c42aa9c4a4ac"
+}
