@@ -1,0 +1,58 @@
+[
+  {
+    "id": "Concrete034",
+    "source": "https://ambientcg.com/a/Concrete034",
+    "license": "CC0",
+    "size_m": [
+      1.1,
+      0.55
+    ],
+    "maps": {
+      "Color": "Concrete034_Color.jpg",
+      "NormalGL": "Concrete034_NormalGL.jpg",
+      "Roughness": "Concrete034_Roughness.jpg"
+    }
+  },
+  {
+    "id": "Wood049",
+    "source": "https://ambientcg.com/a/Wood049",
+    "license": "CC0",
+    "size_m": [
+      0.8,
+      0.8
+    ],
+    "maps": {
+      "Color": "Wood049_Color.jpg",
+      "NormalGL": "Wood049_NormalGL.jpg",
+      "Roughness": "Wood049_Roughness.jpg"
+    }
+  },
+  {
+    "id": "Metal032",
+    "source": "https://ambientcg.com/a/Metal032",
+    "license": "CC0",
+    "size_m": [
+      0.0,
+      0.0
+    ],
+    "maps": {
+      "Color": "Metal032_Color.jpg",
+      "NormalGL": "Metal032_NormalGL.jpg",
+      "Roughness": "Metal032_Roughness.jpg"
+    }
+  },
+  {
+    "id": "Asphalt012",
+    "source": "https://ambientcg.com/a/Asphalt012",
+    "license": "CC0",
+    "size_m": [
+      0.0,
+      0.0
+    ],
+    "maps": {
+      "Color": "Asphalt012_Color.jpg",
+      "NormalGL": "Asphalt012_NormalGL.jpg",
+      "Roughness": "Asphalt012_Roughness.jpg"
+    }
+  }
+]

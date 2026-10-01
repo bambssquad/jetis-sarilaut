@@ -1,0 +1,372 @@
+{
+  "name": "Pengolahan Hasil Laut · Jetis",
+  "slug": "jetis-sarilaut",
+  "source_filename": "SEND.Pengolahan Hasil Laut - Jetis (1).dwg",
+  "source_sha256": "793d4ec07d86248e5912676eea1f0c5720186aceacdef0ef97ef004aa138faf5",
+  "status": "configured",
+  "unit_evidence": [
+    "2A31078x30m +label2A2FC",
+    "2A31384x30m +label2A2FE",
+    "17475/17476 spans30m"
+  ],
+  "origin_source": [
+    2207.9734130790184,
+    1532.7302629559754
+  ],
+  "north_source_axis": "+X; inferred from U compass arrow on layout plan",
+  "bounds": {
+    "min": [
+      -1.0,
+      -19.0,
+      -0.3
+    ],
+    "max": [
+      161.0,
+      145.0,
+      13.7
+    ]
+  },
+  "center": [
+    79.0,
+    69.0,
+    5.3
+  ],
+  "span": 223.0,
+  "ground_height": 0,
+  "walk_bounds": [
+    -1.0,
+    161.0,
+    -19.0,
+    145.0
+  ],
+  "spawn": [
+    47.41153045480314,
+    14.817261017672081,
+    0
+  ],
+  "views": {
+    "overview": {
+      "title": "Kawasan pengolahan Jetis",
+      "detail": "Tapak, akses, parkir dan seluruh tahap berdasarkan layout plan DWG.",
+      "eye": [
+        250.0,
+        -122.0,
+        160
+      ],
+      "target": [
+        79.0,
+        69.0,
+        5.3
+      ]
+    },
+    "entry": {
+      "title": "Gerbang dan halaman depan",
+      "detail": "Pos, jalur kendaraan dan parkir luar yang ditandai pada gambar.",
+      "eye": [
+        111,
+        -83,
+        38
+      ],
+      "target": [
+        111,
+        17,
+        3.5
+      ]
+    },
+    "phase1": {
+      "title": "Tahap 1 · proses dan gudang",
+      "detail": "Dua kompleks 30 m, modul struktur 6 m dan sayap layanan.",
+      "eye": [
+        172,
+        8,
+        59
+      ],
+      "target": [
+        91,
+        49,
+        5.5
+      ]
+    },
+    "process": {
+      "title": "Lantai utama dan mezzanine",
+      "detail": "Lantai utama ±0 dan lantai dua +4,50 mengikuti potongan; proses adalah asumsi.",
+      "eye": [
+        77.41153045480314,
+        35.81726101767208,
+        2.0
+      ],
+      "target": [
+        99.41153045480314,
+        40.81726101767208,
+        1.6
+      ],
+      "interior": true
+    },
+    "phase2": {
+      "title": "Tahap 2 · ekspansi",
+      "detail": "Tapak dan atap trapesium tahap 2 mengikuti poligon DWG, dengan lereng 15°.",
+      "eye": [
+        176,
+        144,
+        55
+      ],
+      "target": [
+        96,
+        123,
+        5.0
+      ]
+    },
+    "yard": {
+      "title": "Halaman logistik",
+      "detail": "Area bongkar muat dan pelataran parkir luar.",
+      "eye": [
+        157,
+        -47,
+        33
+      ],
+      "target": [
+        118,
+        21,
+        1.5
+      ]
+    },
+    "stairs": {
+      "title": "Tangga dan void",
+      "detail": "Modul 12 m, 28 anak tangga dan 2 bordes ke +4,50.",
+      "eye": [
+        39.41153045480314,
+        33.81726101767208,
+        7.5
+      ],
+      "target": [
+        37.91153045480314,
+        28.61726101767208,
+        2.5
+      ]
+    },
+    "weighbridge": {
+      "title": "Jembatan timbang 15 × 4 m",
+      "detail": "Ruang pencatatan 3 × 3 m dengan pintu P90 membuka ke dalam.",
+      "eye": [
+        55.91153010992275,
+        -0.18273898232791908,
+        10
+      ],
+      "target": [
+        47.41153010992275,
+        18.81726101767208,
+        1
+      ]
+    }
+  },
+  "roof_groups": [
+    "Atap | Kanopi",
+    "Atap | Pencatatan",
+    "Atap | Tahap 1",
+    "Atap | Tahap 2",
+    "Atap | Talang"
+  ],
+  "interior_groups": [
+    "Interior | Lantai dua",
+    "Interior | Lantai utama",
+    "Interior | Modul12m",
+    "Interior | Pencatatan",
+    "Interior | Proses",
+    "Interior | Tahap 1 — Pengolahan utama 78 × 30 m",
+    "Interior | Tahap 2 — Ekspansi 84 × 36 m",
+    "Interior | Tangga sumber"
+  ],
+  "source_footprints": [
+    {
+      "handle": "2A310",
+      "name": "Tahap 1 — Blok78m 78 × 30 m",
+      "bounds_m": [
+        65.412,
+        53.817,
+        78.0,
+        30.0
+      ],
+      "vertices_m": [
+        [
+          65.412,
+          83.817
+        ],
+        [
+          143.412,
+          83.817
+        ],
+        [
+          143.412,
+          53.817
+        ],
+        [
+          65.412,
+          53.817
+        ]
+      ]
+    },
+    {
+      "handle": "2A313",
+      "name": "Tahap 1 — Blok84m 84 × 30 m",
+      "bounds_m": [
+        65.412,
+        23.817,
+        84.0,
+        30.0
+      ],
+      "vertices_m": [
+        [
+          65.412,
+          53.817
+        ],
+        [
+          149.412,
+          53.817
+        ],
+        [
+          149.412,
+          23.817
+        ],
+        [
+          65.412,
+          23.817
+        ]
+      ]
+    },
+    {
+      "handle": "2A2E5",
+      "name": "Tahap 1 — Bagian36m 36 × 30 m (sisi atas layout)",
+      "bounds_m": [
+        29.412,
+        53.817,
+        36.0,
+        30.0
+      ],
+      "vertices_m": [
+        [
+          29.412,
+          83.817
+        ],
+        [
+          65.412,
+          83.817
+        ],
+        [
+          65.412,
+          53.817
+        ],
+        [
+          29.412,
+          53.817
+        ]
+      ]
+    },
+    {
+      "handle": "2A2E9",
+      "name": "Tahap 1 — Bagian36m 36 × 30 m (sisi bawah layout)",
+      "bounds_m": [
+        29.412,
+        23.817,
+        36.0,
+        30.0
+      ],
+      "vertices_m": [
+        [
+          29.412,
+          53.817
+        ],
+        [
+          65.412,
+          53.817
+        ],
+        [
+          65.412,
+          23.817
+        ],
+        [
+          29.412,
+          23.817
+        ]
+      ]
+    },
+    {
+      "handle": "2A2D5",
+      "name": "Tahap 2 — Ekspansi 84 × 36 m",
+      "bounds_m": [
+        53.412,
+        103.817,
+        84.0,
+        36.0
+      ],
+      "vertices_m": [
+        [
+          53.412,
+          139.817
+        ],
+        [
+          53.412,
+          103.817
+        ],
+        [
+          137.412,
+          103.817
+        ],
+        [
+          137.412,
+          133.817
+        ]
+      ]
+    }
+  ],
+  "status_detail": "DWG revisi 30 September: tapak, potongan, atap 15°, tangga, void dan bukaan; dock serta akses adalah asumsi yang disetujui.",
+  "download": "../downloads/Jetis-Model-R02.skp",
+  "revision": "02",
+  "mezzanine": {
+    "bounds": [
+      29.41153045480314,
+      23.81726101767208,
+      120,
+      30
+    ],
+    "top": 4.5,
+    "thickness": 0.15,
+    "hole_bounds": [
+      29.48653045480314,
+      23.89226101767208,
+      41.33653045480314,
+      29.89226101767208
+    ],
+    "void_polygon": [
+      [
+        29.48653045480314,
+        23.89226101767208
+      ],
+      [
+        36.08653045480314,
+        23.89226101767208
+      ],
+      [
+        36.08653045480314,
+        24.792261017672082
+      ],
+      [
+        40.43653045480314,
+        24.792261017672082
+      ],
+      [
+        40.43653045480314,
+        29.74226101767208
+      ],
+      [
+        29.48653045480314,
+        29.74226101767208
+      ]
+    ],
+    "source_handles": [
+      "17B47",
+      "1D8DB",
+      "1D76B",
+      "2130C"
+    ]
+  }
+}

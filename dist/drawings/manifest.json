@@ -1,0 +1,1199 @@
+{
+  "project": "Pengolahan Hasil Laut Jetis",
+  "revision": "02 · LOD100 technical set",
+  "created_utc": "2026-10-01T03:04:52.945316+00:00",
+  "sheets": [
+    {
+      "id": "A101",
+      "file": "A101-site-plan.svg",
+      "filename": "A101-site-plan.svg",
+      "description": "Rencana tapak · studi sumber R02 / LOD100 · A1",
+      "facts": [
+        "Batas tapak: poligon sumber 2A2B8; luas 19.054,227 m²",
+        "Tahap 1: 78 × 30 m, 84 × 30 m dan dua sayap 36 × 30 m",
+        "Tahap 2: panjang 84 m, kedalaman meruncing 36 menjadi 30 m",
+        "Utara mengikuti +X lokal; tapak belum georeferensi"
+      ],
+      "assumptions": [
+        "Jalan, parkir, pos, perkerasan dan warna zona mengikuti studi visual",
+        "Batas sumber belum diperiksa terhadap survei lapangan"
+      ],
+      "title": "Rencana tapak",
+      "viewbox": "0 0 841 594",
+      "viewBox": [
+        0,
+        0,
+        841,
+        594
+      ],
+      "width_mm": 841,
+      "height_mm": 594,
+      "scale_A1": "1:500",
+      "cad_origin_m": [
+        0,
+        0
+      ],
+      "sha256": "75110e7b89ebb72fe5381499a32465de0e3243b84de136eb5d862d7c5c55313c"
+    },
+    {
+      "id": "A102",
+      "file": "A102-ground-floor.svg",
+      "filename": "A102-ground-floor.svg",
+      "description": "Denah lantai utama · studi sumber R02 / LOD100 · A1",
+      "facts": [
+        "Lantai utama ±0,00 m; footprint dan posisi bukaan mengikuti R02",
+        "27 bukaan industri 3 × 3 m dan satu akses personel 1,80 × 2,20 m",
+        "Modul tangga 12 × 12 m; jembatan timbang 15 × 4 m",
+        "Ruang pencatatan bersumbu 3 × 3 m; P90 membuka ke dalam"
+      ],
+      "assumptions": [
+        "Ambang +1,20 m dipilih Bam; platform dan akses dalam/luar adalah asumsi",
+        "Mekanisme industri dua daun geser, partisi modul dan profil nominal adalah studi visual"
+      ],
+      "title": "Denah lantai utama",
+      "viewbox": "0 0 841 594",
+      "viewBox": [
+        0,
+        0,
+        841,
+        594
+      ],
+      "width_mm": 841,
+      "height_mm": 594,
+      "scale_A1": "1:400",
+      "cad_origin_m": [
+        600,
+        0
+      ],
+      "sha256": "b205a0d05eac7aee8f0d69a6397f429dc433bf705fa26bcbf9d2d874b6fb9c32"
+    },
+    {
+      "id": "A103",
+      "file": "A103-upper-floor-void.svg",
+      "filename": "A103-upper-floor-void.svg",
+      "description": "Lantai dua & void · studi sumber R02 / LOD100 · A1",
+      "facts": [
+        "Lantai dua +4,50 m dengan bentang rangka 120 × 30 m",
+        "Tangga: 28 injakan 0,30 m, dua bordes, lebar 0,90 m",
+        "Batas void bertingkat dan urutan belokan sumber dipertahankan"
+      ],
+      "assumptions": [
+        "Isi pelat menerus 120 × 30 m dan tebal 150 mm merupakan asumsi",
+        "30 kenaikan masing-masing 150 mm mencapai +4,50 m",
+        "Ukuran sambungan dan handrail belum detail produksi"
+      ],
+      "title": "Lantai dua & void",
+      "viewbox": "0 0 841 594",
+      "viewBox": [
+        0,
+        0,
+        841,
+        594
+      ],
+      "width_mm": 841,
+      "height_mm": 594,
+      "scale_A1": "1:250",
+      "cad_origin_m": [
+        0,
+        -400
+      ],
+      "sha256": "6cb6fc46ee8a65b8352ea60d2598fb7b20e42425313003f4278cfc44547426c3"
+    },
+    {
+      "id": "A104",
+      "file": "A104-roof-plan.svg",
+      "filename": "A104-roof-plan.svg",
+      "description": "Denah atap · studi sumber R02 / LOD100 · A1",
+      "facts": [
+        "Lereng utama 15°; nok nominal +13,50 m",
+        "Atap tahap 1 menerus pada baris 114 m dan 120 m",
+        "Atap tahap 2 mengikuti poligon trapesium 16817",
+        "CNP 125 × 50 × 2 mm berjarak 1,20 m sepanjang lereng; galvalume 0,40 mm"
+      ],
+      "assumptions": [
+        "Rangka ekstensi taper, sambungan, talang dan rentang kanopi merupakan visualisasi",
+        "Angka +9,00 adalah acuan tumpuan, bukan semua tepi atap",
+        "Perbedaan jarak denah T2 dan jarak lereng 3,53% tetap dicatat sebagai ambiguitas sumber"
+      ],
+      "title": "Denah atap",
+      "viewbox": "0 0 841 594",
+      "viewBox": [
+        0,
+        0,
+        841,
+        594
+      ],
+      "width_mm": 841,
+      "height_mm": 594,
+      "scale_A1": "1:400",
+      "cad_origin_m": [
+        600,
+        -400
+      ],
+      "sha256": "19c4202d88d92115444212b3b217e64af669c2635f88bd622645078b6b24cc94"
+    },
+    {
+      "id": "A105",
+      "file": "A105-elevations-stage1.svg",
+      "filename": "A105-elevations-stage1.svg",
+      "description": "Tampak tahap 1 · studi sumber R02 / LOD100 · A1",
+      "facts": [
+        "Empat tampak tahap 1 mengikuti orientasi utara +X lokal",
+        "Posisi/ukuran bukaan mengikuti sumber; 42 kusen: 38 selatan, 4 timur",
+        "Lantai utama ±0,00 m; lantai dua +4,50 m; nok nominal +13,50 m"
+      ],
+      "assumptions": [
+        "Pengulangan motif ventilasi pada gevel utara merupakan asumsi",
+        "Ambang industri +1,20 m adalah keputusan Bam; mekanisme geser merupakan asumsi",
+        "Sambungan, flange/web dan detail struktur tidak diterbitkan sebagai desain konstruksi"
+      ],
+      "title": "Tampak tahap 1",
+      "viewbox": "0 0 841 594",
+      "viewBox": [
+        0,
+        0,
+        841,
+        594
+      ],
+      "width_mm": 841,
+      "height_mm": 594,
+      "scale_A1": "1:250",
+      "cad_origin_m": [
+        0,
+        -850
+      ],
+      "sha256": "0aff8d12d83d90508439f51bc1d4e29a25bf72cb3506c934279ac0e0fa080e74"
+    },
+    {
+      "id": "A106",
+      "file": "A106-elevations-stage2.svg",
+      "filename": "A106-elevations-stage2.svg",
+      "description": "Tampak tahap 2 · studi sumber R02 / LOD100 · A1",
+      "facts": [
+        "Tahap 2 panjang 84 m; sisi selatan 36 m dan sisi utara 30 m",
+        "Batas selubung/atap mempertahankan taper sumber",
+        "Tujuh bukaan industri pada fasad timur",
+        "Lereng utama 15°; nok nominal +13,50 m"
+      ],
+      "assumptions": [
+        "Rangka ekstensi taper dan rentang kanopi belum desain konstruksi",
+        "Tebal flange/web serta sambungan merupakan visualisasi",
+        "Ambang dan akses +1,20 m mengikuti keputusan visual Bam"
+      ],
+      "title": "Tampak tahap 2",
+      "viewbox": "0 0 841 594",
+      "viewBox": [
+        0,
+        0,
+        841,
+        594
+      ],
+      "width_mm": 841,
+      "height_mm": 594,
+      "scale_A1": "1:250",
+      "cad_origin_m": [
+        600,
+        -850
+      ],
+      "sha256": "226366019aa9ec078d1a78c8d95c39255efb5e24f025ad9690bb84e6b5704622"
+    },
+    {
+      "id": "A107",
+      "file": "A107-sections.svg",
+      "filename": "A107-sections.svg",
+      "description": "Potongan & level · studi sumber R02 / LOD100 · A1",
+      "facts": [
+        "Potongan A-A melintang dua bentang 30 m; C-C memanjang 120 m",
+        "Lantai utama ±0,00 m; lantai dua +4,50 m; kepala pedestal +1,00 m",
+        "Acuan tumpuan +9,00 m; nok nominal +13,50 m; lereng 15°",
+        "Diagram tangga memisahkan 28 injakan dan dua bordes"
+      ],
+      "assumptions": [
+        "Isi/tebal pelat 150 mm dan 30 kenaikan 150 mm adalah asumsi",
+        "Ukuran simbol fondasi/rangka tidak boleh dipakai untuk fabrikasi",
+        "Dokumen ini tidak mencakup perhitungan struktur"
+      ],
+      "title": "Potongan & level",
+      "viewbox": "0 0 841 594",
+      "viewBox": [
+        0,
+        0,
+        841,
+        594
+      ],
+      "width_mm": 841,
+      "height_mm": 594,
+      "scale_A1": "1:150",
+      "cad_origin_m": [
+        0,
+        -1300
+      ],
+      "sha256": "65da53dfc1bf8c917bced612ab013a6de838c05190889b6622c128dfb68ac2be"
+    }
+  ],
+  "geometry": {
+    "source_sha256": "793d4ec07d86248e5912676eea1f0c5720186aceacdef0ef97ef004aa138faf5",
+    "origin_source": [
+      2207.9734130790184,
+      1532.7302629559754
+    ],
+    "north_source_axis": "+X",
+    "site": {
+      "handle": "2A2B8",
+      "vertices_m": [
+        [
+          21.136987139887424,
+          128.27013594226855
+        ],
+        [
+          49.42010755231058,
+          125.69620903259374
+        ],
+        [
+          50.703654058261236,
+          141.64464181976973
+        ],
+        [
+          140.4752013376601,
+          135.23610851935473
+        ],
+        [
+          151.24065694615638,
+          92.3671807797723
+        ],
+        [
+          145.61353499411234,
+          92.60153230573906
+        ],
+        [
+          160.12874422382993,
+          4.387765233827395
+        ],
+        [
+          146.72244016926743,
+          2.454219387041576
+        ],
+        [
+          87.07754548723824,
+          -7.424193246748473
+        ],
+        [
+          87.99999999999636,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          21.136987139887424,
+          128.27013594226855
+        ]
+      ],
+      "area_m2": 19054.226811646677
+    },
+    "footprints": [
+      {
+        "handle": "2A2E5",
+        "vertices_m": [
+          [
+            29.41153045480314,
+            83.81726101767208
+          ],
+          [
+            65.41153045480314,
+            83.81726101767208
+          ],
+          [
+            65.41153045480314,
+            53.81726101767208
+          ],
+          [
+            29.41153045480314,
+            53.81726101767208
+          ]
+        ]
+      },
+      {
+        "handle": "2A310",
+        "vertices_m": [
+          [
+            65.41153045480314,
+            83.81726101767208
+          ],
+          [
+            143.41153045480314,
+            83.81726101767208
+          ],
+          [
+            143.41153045480314,
+            53.81726107906297
+          ],
+          [
+            65.41153045480314,
+            53.81726107906297
+          ]
+        ]
+      },
+      {
+        "handle": "2A2E9",
+        "vertices_m": [
+          [
+            29.41153045480314,
+            53.81726101767208
+          ],
+          [
+            65.41153045480314,
+            53.81726101767208
+          ],
+          [
+            65.41153045480314,
+            23.81726101767208
+          ],
+          [
+            29.41153045480314,
+            23.81726101767208
+          ]
+        ]
+      },
+      {
+        "handle": "2A313",
+        "vertices_m": [
+          [
+            65.41153045480496,
+            53.8172611772884
+          ],
+          [
+            149.41153045480314,
+            53.8172611772884
+          ],
+          [
+            149.41153045480314,
+            23.81726101767208
+          ],
+          [
+            65.41153045480496,
+            23.81726101767208
+          ]
+        ]
+      },
+      {
+        "handle": "2A2D5",
+        "vertices_m": [
+          [
+            53.4115304465231,
+            139.81726101792128
+          ],
+          [
+            53.41153044652128,
+            103.81726101792128
+          ],
+          [
+            137.41153044652128,
+            103.81726101792128
+          ],
+          [
+            137.41153044652128,
+            133.81726101792128
+          ]
+        ]
+      }
+    ],
+    "levels": {
+      "main_floor": 0.0,
+      "mezzanine": 4.5,
+      "pedestal_reference": 1.0,
+      "support_reference": 9.0,
+      "nominal_ridge": 13.5,
+      "floor_evidence": [
+        "17B87",
+        "17B9F",
+        "145C8",
+        "1463C"
+      ],
+      "mezzanine_evidence": [
+        "1D929",
+        "1D923"
+      ]
+    },
+    "roof_degrees": 15,
+    "door_sill": 1.2,
+    "mezzanine": {
+      "bounds": [
+        29.41153045480314,
+        23.81726101767208,
+        120,
+        30
+      ],
+      "top": 4.5,
+      "thickness": 0.15,
+      "hole_bounds": [
+        29.48653045480314,
+        23.89226101767208,
+        41.33653045480314,
+        29.89226101767208
+      ],
+      "void_polygon": [
+        [
+          29.48653045480314,
+          23.89226101767208
+        ],
+        [
+          36.08653045480314,
+          23.89226101767208
+        ],
+        [
+          36.08653045480314,
+          24.792261017672082
+        ],
+        [
+          40.43653045480314,
+          24.792261017672082
+        ],
+        [
+          40.43653045480314,
+          29.74226101767208
+        ],
+        [
+          29.48653045480314,
+          29.74226101767208
+        ]
+      ],
+      "source_handles": [
+        "17B47",
+        "1D8DB",
+        "1D76B",
+        "2130C"
+      ]
+    },
+    "stairs": [
+      {
+        "handle": "2A451",
+        "bounds": [
+          36.236530454811145,
+          23.8922610176719,
+          0.2999999999992724,
+          0.8999999999996362
+        ],
+        "top": 0.15,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A44F",
+        "bounds": [
+          36.53653045481042,
+          23.8922610176719,
+          0.2999999999992724,
+          0.8999999999996362
+        ],
+        "top": 0.3,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A450",
+        "bounds": [
+          36.83653045480969,
+          23.8922610176719,
+          0.2999999999992724,
+          0.8999999999996362
+        ],
+        "top": 0.44999999999999996,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A44E",
+        "bounds": [
+          37.13653045480896,
+          23.8922610176719,
+          0.2999999999992724,
+          0.8999999999996362
+        ],
+        "top": 0.6,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A446",
+        "bounds": [
+          37.436530454808235,
+          23.8922610176719,
+          0.2999999999992724,
+          0.8999999999996362
+        ],
+        "top": 0.75,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A444",
+        "bounds": [
+          37.73653045480751,
+          23.8922610176719,
+          0.2999999999992724,
+          0.8999999999996362
+        ],
+        "top": 0.8999999999999999,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A445",
+        "bounds": [
+          38.03653045480678,
+          23.8922610176719,
+          0.2999999999992724,
+          0.8999999999996362
+        ],
+        "top": 1.05,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A422",
+        "bounds": [
+          38.33653045480605,
+          23.8922610176719,
+          0.2999999999992724,
+          0.8999999999996362
+        ],
+        "top": 1.2000000000000002,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A419",
+        "bounds": [
+          38.636530454805325,
+          23.8922610176719,
+          0.2999999999992724,
+          0.8999999999996362
+        ],
+        "top": 1.35,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A418",
+        "bounds": [
+          38.9365304548046,
+          23.8922610176719,
+          0.2999999999992724,
+          0.8999999999996362
+        ],
+        "top": 1.5,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A417",
+        "bounds": [
+          39.23653045480387,
+          23.8922610176719,
+          0.2999999999992724,
+          0.8999999999996362
+        ],
+        "top": 1.65,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A416",
+        "bounds": [
+          39.53653045480314,
+          23.8922610176719,
+          0.2999999999992724,
+          0.8999999999996362
+        ],
+        "top": 1.7999999999999998,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A415",
+        "bounds": [
+          39.836530454802414,
+          23.8922610176719,
+          0.2999999999992724,
+          0.8999999999996362
+        ],
+        "top": 1.9500000000000002,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A412",
+        "bounds": [
+          40.13653045480169,
+          23.8922610176719,
+          0.2999999999992724,
+          0.8999999999996362
+        ],
+        "top": 2.1,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A411",
+        "bounds": [
+          40.43653045480096,
+          23.8922610176719,
+          0.9000000000014552,
+          0.8999999999996362
+        ],
+        "top": 2.25,
+        "kind": "landing"
+      },
+      {
+        "handle": "2A413",
+        "bounds": [
+          40.43653045480096,
+          24.792261017671535,
+          0.8999999999996362,
+          0.2999999999992724
+        ],
+        "top": 2.4,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A414",
+        "bounds": [
+          40.43653045480096,
+          25.092261017670808,
+          0.8999999999996362,
+          0.2999999999992724
+        ],
+        "top": 2.55,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A41A",
+        "bounds": [
+          40.43653045480096,
+          25.39226101767008,
+          0.8999999999996362,
+          0.2999999999992724
+        ],
+        "top": 2.6999999999999997,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A41B",
+        "bounds": [
+          40.43653045480096,
+          25.692261017669352,
+          0.8999999999996362,
+          0.2999999999992724
+        ],
+        "top": 2.85,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A41C",
+        "bounds": [
+          40.43653045480096,
+          25.992261017668625,
+          0.8999999999996362,
+          0.2999999999992724
+        ],
+        "top": 3.0,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A421",
+        "bounds": [
+          40.43653045480096,
+          26.292261017667897,
+          0.8999999999996362,
+          0.2999999999992724
+        ],
+        "top": 3.15,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A420",
+        "bounds": [
+          40.43653045480096,
+          26.59226101766717,
+          0.8999999999996362,
+          0.2999999999992724
+        ],
+        "top": 3.3,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A41F",
+        "bounds": [
+          40.43653045480096,
+          26.892261017666442,
+          0.8999999999996362,
+          0.2999999999992724
+        ],
+        "top": 3.4499999999999997,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A41E",
+        "bounds": [
+          40.43653045480096,
+          27.192261017665714,
+          0.8999999999996362,
+          0.2999999999992724
+        ],
+        "top": 3.5999999999999996,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A41D",
+        "bounds": [
+          40.43653045480096,
+          27.492261017664987,
+          0.8999999999996362,
+          0.2999999999992724
+        ],
+        "top": 3.75,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A44A",
+        "bounds": [
+          40.43653045480096,
+          27.79226101766426,
+          0.9000000000014552,
+          0.8999999999996362
+        ],
+        "top": 3.9,
+        "kind": "landing"
+      },
+      {
+        "handle": "2A44B",
+        "bounds": [
+          40.43653045480096,
+          28.692261017663895,
+          0.8999999999996362,
+          0.2999999999992724
+        ],
+        "top": 4.05,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A44C",
+        "bounds": [
+          40.43653045480096,
+          28.992261017663168,
+          0.8999999999996362,
+          0.2999999999992724
+        ],
+        "top": 4.2,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A44D",
+        "bounds": [
+          40.43653045480096,
+          29.29226101766244,
+          0.8999999999996362,
+          0.2999999999992724
+        ],
+        "top": 4.35,
+        "kind": "tread"
+      },
+      {
+        "handle": "2A452",
+        "bounds": [
+          40.43653045480096,
+          29.592261017661713,
+          0.8999999999996362,
+          0.2999999999992724
+        ],
+        "top": 4.5,
+        "kind": "tread"
+      }
+    ],
+    "weighbridge": {
+      "handle": "2A318",
+      "size_m": [
+        15,
+        4
+      ],
+      "vertices_m": [
+        [
+          39.91153010992275,
+          18.81726101767208
+        ],
+        [
+          39.91153010992275,
+          14.817261017672081
+        ],
+        [
+          54.91153010992275,
+          14.817261017672081
+        ],
+        [
+          54.91153010992275,
+          18.81726101767208
+        ]
+      ]
+    },
+    "recorder": {
+      "handle": "2A423",
+      "axis_size_m": [
+        3,
+        3
+      ],
+      "wall_thickness_m": 0.15
+    },
+    "roof_outline_stage2": [
+      [
+        52.4115304465231,
+        140.8912373641797
+      ],
+      [
+        52.41153044652128,
+        102.81726101792128
+      ],
+      [
+        138.41153044652128,
+        102.81726101792128
+      ],
+      [
+        138.41153044652128,
+        134.7483802213228
+      ]
+    ],
+    "openings": [
+      {
+        "handle": "1651A",
+        "axis": "X",
+        "fixed": 83.81726101767208,
+        "a": 132.91153045505052,
+        "b": 135.91153045505052,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_1651a"
+      },
+      {
+        "handle": "1653E",
+        "axis": "X",
+        "fixed": 83.81726101767208,
+        "a": 120.91153045505052,
+        "b": 123.91153045505052,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_1653e"
+      },
+      {
+        "handle": "16544",
+        "axis": "X",
+        "fixed": 83.81726101767208,
+        "a": 108.91153045505052,
+        "b": 111.91153045505052,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_16544"
+      },
+      {
+        "handle": "1654A",
+        "axis": "X",
+        "fixed": 83.81726101767208,
+        "a": 96.91153045505052,
+        "b": 99.91153045505052,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_1654a"
+      },
+      {
+        "handle": "2165F",
+        "axis": "X",
+        "fixed": 83.81726101767208,
+        "a": 84.91153045505052,
+        "b": 87.91153045505052,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_2165f"
+      },
+      {
+        "handle": "21665",
+        "axis": "X",
+        "fixed": 83.81726101767208,
+        "a": 72.91153045505416,
+        "b": 75.91153045505416,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_21665"
+      },
+      {
+        "handle": "21700",
+        "axis": "X",
+        "fixed": 23.81726101767208,
+        "a": 66.9115304545544,
+        "b": 69.9115304545544,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_21700"
+      },
+      {
+        "handle": "21706",
+        "axis": "X",
+        "fixed": 23.81726101767208,
+        "a": 72.9115304545544,
+        "b": 75.9115304545544,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_21706"
+      },
+      {
+        "handle": "2170C",
+        "axis": "X",
+        "fixed": 23.81726101767208,
+        "a": 78.9115304545544,
+        "b": 81.9115304545544,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_2170c"
+      },
+      {
+        "handle": "2174D",
+        "axis": "X",
+        "fixed": 23.81726101767208,
+        "a": 84.9115304545544,
+        "b": 87.9115304545544,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_2174d"
+      },
+      {
+        "handle": "21753",
+        "axis": "X",
+        "fixed": 23.81726101767208,
+        "a": 90.9115304545544,
+        "b": 93.9115304545544,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_21753"
+      },
+      {
+        "handle": "21759",
+        "axis": "X",
+        "fixed": 23.81726101767208,
+        "a": 96.9115304545544,
+        "b": 99.9115304545544,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_21759"
+      },
+      {
+        "handle": "2179E",
+        "axis": "X",
+        "fixed": 23.81726101767208,
+        "a": 120.9115304545544,
+        "b": 123.9115304545544,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_2179e"
+      },
+      {
+        "handle": "217A4",
+        "axis": "X",
+        "fixed": 23.81726101767208,
+        "a": 126.9115304545544,
+        "b": 129.9115304545544,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_217a4"
+      },
+      {
+        "handle": "217AA",
+        "axis": "X",
+        "fixed": 23.81726101767208,
+        "a": 132.9115304545544,
+        "b": 135.9115304545544,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_217aa"
+      },
+      {
+        "handle": "217B0",
+        "axis": "X",
+        "fixed": 23.81726101767208,
+        "a": 138.9115304545544,
+        "b": 141.9115304545544,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_217b0"
+      },
+      {
+        "handle": "1BA1E",
+        "axis": "Y",
+        "fixed": 29.41153045480314,
+        "a": 73.31726051175337,
+        "b": 76.31726051175337,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_1ba1e"
+      },
+      {
+        "handle": "1BA3C",
+        "axis": "Y",
+        "fixed": 29.41153045480314,
+        "a": 61.317260511753375,
+        "b": 64.31726051175337,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_1ba3c"
+      },
+      {
+        "handle": "1BACB",
+        "axis": "Y",
+        "fixed": 29.41153045480314,
+        "a": 49.3172605117461,
+        "b": 52.3172605117461,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_1bacb"
+      },
+      {
+        "handle": "1BAED",
+        "axis": "Y",
+        "fixed": 29.41153045480314,
+        "a": 37.3172605117461,
+        "b": 40.3172605117461,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_1baed"
+      },
+      {
+        "handle": "1BB25",
+        "axis": "Y",
+        "fixed": 29.41153045480314,
+        "a": 24.267260511762288,
+        "b": 26.067260511762015,
+        "sill": 1.2,
+        "head": 3.4000000000000004,
+        "motion": "door_1bb25"
+      },
+      {
+        "handle": "265F3",
+        "axis": "X",
+        "fixed": 103.81726101792128,
+        "a": 54.91153044652128,
+        "b": 57.91153044652128,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_265f3"
+      },
+      {
+        "handle": "26622",
+        "axis": "X",
+        "fixed": 103.81726101792128,
+        "a": 66.91153044652128,
+        "b": 69.91153044652128,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_26622"
+      },
+      {
+        "handle": "26628",
+        "axis": "X",
+        "fixed": 103.81726101792128,
+        "a": 78.91153044652128,
+        "b": 81.91153044652128,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_26628"
+      },
+      {
+        "handle": "2662E",
+        "axis": "X",
+        "fixed": 103.81726101792128,
+        "a": 90.91153044652128,
+        "b": 93.91153044652128,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_2662e"
+      },
+      {
+        "handle": "26634",
+        "axis": "X",
+        "fixed": 103.81726101792128,
+        "a": 102.91153044652128,
+        "b": 105.91153044652128,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_26634"
+      },
+      {
+        "handle": "2663A",
+        "axis": "X",
+        "fixed": 103.81726101792128,
+        "a": 114.91153044652128,
+        "b": 117.91153044652128,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_2663a"
+      },
+      {
+        "handle": "26640",
+        "axis": "X",
+        "fixed": 103.81726101792128,
+        "a": 126.91153044652128,
+        "b": 129.91153044652128,
+        "sill": 1.2,
+        "head": 4.2,
+        "motion": "door_26640"
+      }
+    ]
+  },
+  "source_facts": [
+    "Gambar pengendali LAYOUT PLAN ALT.2 (165A2); batas tapak dan lima footprint mempertahankan poligon sumber tanpa pembulatan",
+    "Koordinat dan label 78 × 30 m, 84 × 30 m, serta bentang potongan 30 m mendukung satuan meter. Header DWG asli INSUNITS=4 berarti milimeter; perbedaan header dan geometri dicatat. CAD baru memakai INSUNITS=6, meter",
+    "Luas tapak 19.054,227 m²; utara mengikuti +X lokal; tidak ada georeferensi atau verifikasi survei lapangan",
+    "Lantai utama ±0,00 m; lantai dua +4,50 m; kepala pedestal +1,00 m; acuan tumpuan +9,00 m; nok nominal +13,50 m",
+    "Lereng atap 15°; gording CNP 125 × 50 × 2 mm berjarak 1,20 m sepanjang lereng; penutup galvalume 0,40 mm",
+    "Tangga mengikuti 28 injakan 0,30 m, dua bordes dan lebar 0,90 m; batas void bertingkat sumber dipertahankan",
+    "Jembatan timbang 15 × 4 m; ruang pencatatan bersumbu 3 × 3 m dan berdinding 150 mm",
+    "27 bukaan industri 3 × 3 m; satu bukaan personel 1,80 × 2,20 m; 42 kusen sumber 0,70 × 1,14 m"
+  ],
+  "assumptions": [
+    "Isi pelat lantai dua menerus 120 × 30 m dan tebal 150 mm merupakan asumsi visual; profil 300 mm pada sumber adalah rangka WF",
+    "Tiga puluh kenaikan 150 mm ditetapkan untuk mencapai +4,50 m dengan urutan perjalanan tangga sumber tetap",
+    "Bam memilih ambang industri +1,20 m; platform loading dan akses dalam/luar merupakan asumsi visual yang disetujui",
+    "Mekanisme industri dua daun geser merupakan asumsi; sumber menunjukkan dua daun dan handel. Pintu P90 pencatatan berengsel ke dalam sesuai sumber",
+    "Tinggi ruang pencatatan 3 m, atap datar dan ambang jendela 0,90 m merupakan asumsi",
+    "Tebal selubung, flange/web, sambungan, fondasi, lanskap, isi proses dan rangka ekstensi taper bukan desain konstruksi",
+    "Ekstraksi mencatat 3.111 rekaman tidak didukung; keluaran ini bukan konversi semantik penuh DWG asli",
+    "Pengulangan ventilasi gevel utara merupakan asumsi. Gambar tidak mengklaim survei kondisi eksisting"
+  ],
+  "cad": {
+    "path": "Jetis-R02-LOD100-Technical.dxf",
+    "format": "ASCII DXF AC1015 / AutoCAD2000",
+    "units": "metres",
+    "insunits": 6,
+    "modelspace": "7 model sheet groups, main views1:1 in metres, native site at original local origin; details use translated1:1 coordinates",
+    "layouts": 7,
+    "editable_entities": {
+      "LINE": 558,
+      "TEXT": 451,
+      "LWPOLYLINE": 563,
+      "HATCH": 398,
+      "DIMENSION": 33
+    },
+    "source_link_xdata": "JETIS XDATA includes original handles and source/assumption status",
+    "dwg_conversion": "DWG asli hasil encoding dan pembacaan ulang; bukan DXF yang diganti ekstensi.",
+    "sha256": "8261331f2a71a112d7a214e90ceacb6e814b2c5755405ed0cd4715dda01d99e0",
+    "dwg_sha256": "9897166b4445d0eafd63cd87b15b8aeb0ad5ba4e960961657012194cd05cab53",
+    "format_dwg": "DWG R2000 / AC1015",
+    "presentation_correction": "44 isian luas diubah dari hitam ke abu-abu muda dan diletakkan di belakang garis/teks. Seluruh 398 batas hatch dan geometri tetap sama."
+  },
+  "source": {
+    "filename": "SEND.Pengolahan Hasil Laut - Jetis (1).dwg",
+    "sha256": "793d4ec07d86248e5912676eea1f0c5720186aceacdef0ef97ef004aa138faf5",
+    "original_insunits": 4,
+    "original_insunits_name": "millimeters",
+    "coordinate_unit_evidence": "78x30,84x30 metre-scale footprint coordinates and30m spans",
+    "header_coordinate_mismatch": true,
+    "new_cad_insunits": 6
+  },
+  "checks": {
+    "source_hash": "PASS",
+    "site_area_m2": 19054.226811646677,
+    "output_dxf_audit_errors": 0,
+    "svg_dxf_shared_primitive_stream": true,
+    "visual_review": "PASS: seven SVG sheets rendered with Inkscape at1682px; all reviewed and A103 enlarged for stair/void readability",
+    "test_results": {
+      "tests": 5,
+      "passed": 5,
+      "failed": 0,
+      "evidence": "verification-tests.txt"
+    },
+    "cad_reload": "PASS: ezdxf readfile; AC1015; INSUNITS=6; 2003 model entities; 7 layouts; 0 audit errors"
+  }
+}

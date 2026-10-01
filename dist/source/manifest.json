@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "title": "DWG asli · pratinjau ekstraksi R02",
+  "defaultRegion": "layout-alt2",
+  "source": {
+    "name": "SEND.Pengolahan Hasil Laut - Jetis (1).dwg",
+    "sha256": "793d4ec07d86248e5912676eea1f0c5720186aceacdef0ef97ef004aa138faf5",
+    "bytes": 2909918,
+    "format": "DWG R2018 / AC1032",
+    "download": "downloads/Jetis-Sumber-Asli-R02.dwg"
+  },
+  "unitEvidence": {
+    "nativeInsunits": 4,
+    "extractInsunits": null,
+    "rescaled": false,
+    "note": "Header DWG INSUNITS=4 (mm); ekstraktor tidak membaca nilainya. Koordinat denah 78 × 30 / 84 × 30 cocok dengan label meter. Pratinjau mempertahankan angka XY asli tanpa pengalian 1.000; satuan masih perlu diperiksa dalam CAD."
+  },
+  "coverage": {
+    "modelRecords": 73672,
+    "blockDefinitions": 710,
+    "renderedLinework": 79114,
+    "modelLinework": 70973,
+    "modelMText": 450,
+    "blockLinework": 8141,
+    "expandedInserts": 701,
+    "partialDimensions": 635,
+    "omitted": {
+      "AcDbHatch": 593,
+      "AcDbEllipse": 92,
+      "AcDbPoint": 328
+    },
+    "warnings": 3111,
+    "missingBlocks": [],
+    "cyclicBlocks": []
+  },
+  "regions": [
+    {
+      "id": "whole",
+      "label": "Seluruh model-space · termasuk objek jauh",
+      "bounds": [
+        2175.111550542455,
+        1504.3861284013165,
+        3378.398198849744,
+        1739.544534266393
+      ],
+      "sourceHandles": []
+    },
+    {
+      "id": "drawing-cluster",
+      "label": "Kelompok denah, tampak & potongan",
+      "bounds": [
+        2190,
+        1505,
+        3385,
+        1745
+      ],
+      "sourceHandles": [
+        "165A2",
+        "165DF",
+        "17B96",
+        "1D743"
+      ]
+    },
+    {
+      "id": "layout-alt2",
+      "label": "Layout Plan Alt.2 · sumber pengendali",
+      "bounds": [
+        2190,
+        1505,
+        2428,
+        1745
+      ],
+      "sourceHandles": [
+        "165A2",
+        "2A2B8"
+      ]
+    },
+    {
+      "id": "layout-detail",
+      "label": "Detail timbang, ruang pencatatan & tangga",
+      "bounds": [
+        2232,
+        1542,
+        2272,
+        1574
+      ],
+      "sourceHandles": [
+        "2A318",
+        "2A423",
+        "2A302",
+        "2A45C"
+      ]
+    },
+    {
+      "id": "foundation-stage1",
+      "label": "Rencana pondasi · tahap 1",
+      "bounds": [
+        2430,
+        1585,
+        2575,
+        1690
+      ],
+      "sourceHandles": [
+        "165DF"
+      ]
+    },
+    {
+      "id": "foundation-stage2",
+      "label": "Rencana pondasi · tahap 2",
+      "bounds": [
+        2430,
+        1510,
+        2540,
+        1585
+      ],
+      "sourceHandles": [
+        "165E1"
+      ]
+    },
+    {
+      "id": "columns-stage1",
+      "label": "Rencana kolom · tahap 1",
+      "bounds": [
+        2580,
+        1585,
+        2728,
+        1690
+      ],
+      "sourceHandles": [
+        "1666E"
+      ]
+    },
+    {
+      "id": "columns-stage2",
+      "label": "Rencana kolom · tahap 2",
+      "bounds": [
+        2545,
+        1508,
+        2650,
+        1585
+      ],
+      "sourceHandles": [
+        "16670"
+      ]
+    },
+    {
+      "id": "roof-stage1",
+      "label": "Rencana atap · tahap 1",
+      "bounds": [
+        2733,
+        1585,
+        2878,
+        1690
+      ],
+      "sourceHandles": [
+        "167AE"
+      ]
+    },
+    {
+      "id": "roof-stage2",
+      "label": "Rencana atap · tahap 2",
+      "bounds": [
+        2658,
+        1510,
+        2766,
+        1585
+      ],
+      "sourceHandles": [
+        "1681C"
+      ]
+    },
+    {
+      "id": "elevations-stage1",
+      "label": "Tampak utara/selatan · tahap 1",
+      "bounds": [
+        2880,
+        1630,
+        2988,
+        1690
+      ],
+      "sourceHandles": [
+        "1B9EA",
+        "23962"
+      ]
+    },
+    {
+      "id": "elevations-long-stage1",
+      "label": "Tampak barat/timur · tahap 1",
+      "bounds": [
+        3090,
+        1638,
+        3378,
+        1690
+      ],
+      "sourceHandles": [
+        "145D6",
+        "21673"
+      ]
+    },
+    {
+      "id": "section-aa-stage1",
+      "label": "Potongan A-A · tahap 1",
+      "bounds": [
+        2988,
+        1646,
+        3090,
+        1700
+      ],
+      "sourceHandles": [
+        "17B96"
+      ]
+    },
+    {
+      "id": "sections-bbcc-stage1",
+      "label": "Potongan B-B & C-C · tahap 1",
+      "bounds": [
+        3088,
+        1590,
+        3380,
+        1643
+      ],
+      "sourceHandles": [
+        "14500",
+        "1D743"
+      ]
+    },
+    {
+      "id": "elevations-short-stage2",
+      "label": "Tampak utara/selatan · tahap 2",
+      "bounds": [
+        2770,
+        1525,
+        2878,
+        1582
+      ],
+      "sourceHandles": [
+        "237B1",
+        "237F5"
+      ]
+    },
+    {
+      "id": "elevations-long-stage2",
+      "label": "Tampak barat/timur · tahap 2",
+      "bounds": [
+        2942,
+        1508,
+        3078,
+        1582
+      ],
+      "sourceHandles": [
+        "239A8",
+        "26576"
+      ]
+    },
+    {
+      "id": "section-aa-stage2",
+      "label": "Potongan A-A · tahap 2",
+      "bounds": [
+        2877,
+        1508,
+        2945,
+        1582
+      ],
+      "sourceHandles": [
+        "22B49"
+      ]
+    },
+    {
+      "id": "section-bb-source",
+      "label": "Potongan B-B · judul sumber 23A4F",
+      "bounds": [
+        3078,
+        1518,
+        3166,
+        1582
+      ],
+      "sourceHandles": [
+        "23A4F"
+      ]
+    }
+  ],
+  "limitations": [
+    "Pratinjau model-space dari data ekstraksi tersimpan; bukan editor CAD native dan bukan pembacaan lengkap seluruh DWG.",
+    "Garis, polyline termasuk bulge, lingkaran dan busur memakai koordinat asli. Blok yang memiliki definisi diperluas dengan origin, skala, rotasi dan layer sumber; tidak dibuat ulang dari asumsi.",
+    "Hatch, ellipse dan point tidak menyediakan geometri dalam ekstraksi sehingga tidak ditampilkan. Definisi blok yang tidak terpakai tidak dipasang secara spekulatif.",
+    "635 dimensi hanya menyediakan measurement, text dan textPosition; geometri panah/garis serta tautan blok dimensi tidak tersedia. Opsi nilai dimensi menampilkan angka parsial di posisi tersimpan.",
+    "MTEXT mempertahankan isi, baris, perubahan tinggi dan simbol yang tersimpan. Width/attachment/rotation MTEXT serta font CAD asli tidak tersedia lengkap; posisi glyph dan pembungkusan baris adalah perkiraan.",
+    "Warna, lineweight dan linetype CAD tidak disimpan ekstraktor. Garis ditampilkan dengan warna layar netral untuk keterbacaan; paper-space/layout native tidak diekstrak.",
+    "Pilihan area hanya mengatur jendela kamera berdasarkan posisi judul sumber. Seluruh geometri tetap di koordinat model-space; objek jauh tidak dihapus."
+  ]
+}

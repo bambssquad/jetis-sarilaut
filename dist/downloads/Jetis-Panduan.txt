@@ -1,0 +1,43 @@
+JETIS — GAMBAR TEKNIS R02 / LOD100
+
+Tujuh lembar SVG vektor yang dapat diperbesar secara independen:
+A101 Rencana tapak
+A102 Denah lantai utama
+A103 Lantai dua, tangga dan void
+A104 Denah atap
+A105 Tampak tahap 1
+A106 Tampak tahap 2
+A107 Potongan dan level
+
+Ukuran kertas A1: 841 × 594 mm. Skala utama tercatat pada setiap lembar.
+Skala cetak hanya berlaku jika ukuran kertas tidak berubah. Dimensi angka
+mengendalikan; jangan mengukur layar.
+
+Jetis-R02-LOD100-Technical.dxf adalah CAD DXF asli yang dapat diedit,
+AutoCAD 2000, satuan meter (INSUNITS=6), dengan tujuh layout A1.
+DXF ini tidak dilabeli DWG. Pembuatan DWG melalui proses konversi terpisah.
+Poligon, garis, teks, hatch dan dimensi tersimpan sebagai entitas CAD.
+
+Sumber: SEND.Pengolahan Hasil Laut - Jetis (1).dwg
+SHA256: 793d4ec07d86248e5912676eea1f0c5720186aceacdef0ef97ef004aa138faf5
+
+DWG sumber tidak diedit. Batas tapak, lima footprint dan geometri atap
+meruncing tahap 2 mengikuti kontrak R02. Luas tapak: 19.054,227 m².
+Utara mengikuti +X lokal; tidak ada georeferensi.
+
+Catatan satuan: pembacaan independen DWG asli menemukan INSUNITS=4
+(milimeter), sedangkan koordinat 78 × 30, 84 × 30 dan bentang berlabel
+30 m mendukung geometri berskala meter. Perbedaan header dan koordinat
+tersebut dicatat. CAD baru menggunakan INSUNITS=6; tidak diterapkan
+faktor pembesaran 1.000 kali.
+
+Fakta sumber dan asumsi visual dipisahkan pada gambar dan manifest.
+Lantai utama ±0,00 m; lantai dua +4,50 m; ambang industri +1,20 m
+mengikuti pilihan Bam. Isi pelat menerus 120 × 30 m, tebal 150 mm,
+platform loading dan 30 kenaikan 150 mm tetap merupakan asumsi visual.
+
+BUKAN DOKUMEN KONSTRUKSI, persetujuan rekayasa struktur, atau survei
+kondisi eksisting yang diverifikasi.
+
+Pemeriksaan: 5 dari 5 pengujian artefak lulus; CAD dimuat ulang dengan
+0 kesalahan audit; ketujuh SVG dirender dan ditinjau secara visual.

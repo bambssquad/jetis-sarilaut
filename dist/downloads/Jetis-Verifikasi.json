@@ -1,0 +1,75 @@
+{
+  "proyek": "Pengolahan Hasil Laut Jetis",
+  "revisi": "R02 / LOD 100",
+  "sumber": {
+    "nama": "SEND.Pengolahan Hasil Laut - Jetis (1).dwg",
+    "sha256": "793d4ec07d86248e5912676eea1f0c5720186aceacdef0ef97ef004aa138faf5",
+    "ukuran_byte": 2909918,
+    "format": "DWG R2018 / AC1032",
+    "asli_tidak_diedit": true,
+    "INSUNITS_asli": 4,
+    "catatan_satuan": "Header mm berbeda dengan koordinat dan dimensi label 78 × 30 m / 84 × 30 m. Gambar baru memakai meter (INSUNITS=6)."
+  },
+  "CAD_baru": {
+    "DWG_sha256": "9897166b4445d0eafd63cd87b15b8aeb0ad5ba4e960961657012194cd05cab53",
+    "DXF_sha256": "8261331f2a71a112d7a214e90ceacb6e814b2c5755405ed0cd4715dda01d99e0",
+    "format": "DWG R2000 / AC1015",
+    "INSUNITS": 6,
+    "jenis": "Set gambar teknik baru; geometri model setiap lembar 1:1 dalam meter, dengan grup lembar dan detail dipindahkan agar terbaca. Bukan satu model federasi tapak.",
+    "lembar_A1": 7,
+    "entitas_utama": 1996,
+    "dimensi_native": 33,
+    "penempatan_teks_diperiksa": 451,
+    "viewport_diperiksa": 17,
+    "pengujian": "Pembacaan ulang DWG dengan GNU LibreDWG 0.14 dan GDAL; roundtrip DXF dengan ezdxf; teks, dimensi, layer, hatch, tag sumber dan layout diperiksa independen",
+    "audit_errors": 0,
+    "audit_fixes": 0,
+    "catatan_roundtrip": "Exporter DXF LibreDWG tidak menyimpan 26 ID/status viewport sementara dan 33 nilai default spasi MTEXT dalam bentuk yang sama. Data native DWG dan XDATA dipertahankan; pembacaan semantik dan rekonstruksi metadata lulus.",
+    "gaya_isian": "44 isian luas diubah dari hitam ke abu-abu muda dan diletakkan di belakang garis/teks. Seluruh 398 batas hatch dan geometri tetap sama.",
+    "render_layout": "Tujuh layout A1 dari DXF dan DWG yang dibaca ulang menghasilkan piksel identik; label dan dimensi terlihat."
+  },
+  "geometri": {
+    "scene_elemen": 2713,
+    "footprint_sumber": 5,
+    "luas_tapak_m2": 19054.2268116455,
+    "atap_derajat": 15,
+    "jalur_navigasi": 57,
+    "arah_diperiksa": 114,
+    "gambar_svg": 7,
+    "hasil": "Poligon tapak dan lima footprint sama persis dengan sumber R02; tidak ada pengalian skala 1000."
+  },
+  "program": {
+    "tahap": [
+      "Tapak & pondasi",
+      "Struktur utama",
+      "Lantai & akses",
+      "Atap & selubung",
+      "Penyelesaian"
+    ],
+    "slider": "Dapat digeser bolak-balik, putar/jeda, potongan, pisahkan elemen dan label",
+    "unit_tests": 25,
+    "pengujian_browser": "Pratinjau DWG dan antarmuka menunggu pemeriksaan browser setelah publikasi kandidat. WebGL tidak dapat dibuat pada browser cloud yang tersedia, sehingga flicker, FPS perangkat dan ekspor PNG live 4K belum terverifikasi di lingkungan tersebut.",
+    "batas": "Urutan animasi ilustratif, bukan jadwal atau metode konstruksi. Tidak ada MEP terverifikasi yang ditambahkan."
+  },
+  "batas_studi": "LOD 100 konseptual, bukan dokumen konstruksi atau perhitungan struktur. Fondasi, detail profil/sambungan, pelat dan loading/access yang belum terukur tetap asumsi.",
+  "render_R03": {
+    "geometri_sumber_tetap": true,
+    "elemen": 2713,
+    "duplikat_render_eksak": 0,
+    "atap_tipis": "Lembar nominal 0,4 mm dirender sebagai satu permukaan dua sisi untuk menghindari dua shell hampir sekoplanar; data nominal sumber tidak diubah.",
+    "kaca": "44 pane dipisah menjadi mesh yang diurutkan sendiri.",
+    "kualitas": "Adaptif, Tinggi, Ringan, Ultra dengan anggaran hingga 3840 × 2160 piksel; ukuran aktual dan batas GPU ditampilkan.",
+    "ekspor": "PNG 16:9 pada 3840 × 2160 bila GPU mendukung; framebuffer asli dipakai agar tone mapping ACES dan paparan sama dengan tampilan live.",
+    "tekstur": "CC0 ambientCG, aset sumber 1K / 2K; output 4K bukan klaim tekstur 4K."
+  },
+  "DWG_pratinjau": {
+    "jenis": "Ekstraksi model-space R02, bukan editor DWG native",
+    "rekaman": 73672,
+    "garis_sumber": 70973,
+    "garis_perluasan_blok": 8141,
+    "MTEXT_sumber": 450,
+    "dimensi_parsial": 635,
+    "batas": "593 hatch, 92 ellipse dan 328 point tidak tampil; jenis garis, lineweight, ACI dan tata letak teks tidak sepenuhnya diekstrak.",
+    "koordinat": "Angka XY asli dipertahankan; konflik header mm dengan label meter dicatat."
+  }
+}
